@@ -12,14 +12,15 @@ let g:colors_name = "birds-of-paradise"
 
 hi Cursor ctermfg=52 ctermbg=253 cterm=NONE guifg=#372725 guibg=#DBF5F3 gui=NONE
 hi Visual ctermfg=NONE ctermbg=125 cterm=NONE guifg=NONE guibg=#a40042 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#493a35 gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#2e201f gui=NONE
+hi CursorLineNr ctermfg=3 ctermbg=59 cterm=NONE guifg=#efac32  guibg=#493a35  gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#493a35 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#493a35 gui=NONE
 hi LineNr ctermfg=8 ctermbg=0 cterm=NONE guifg=#8f8475 guibg=#493a35 gui=NONE
-hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#6a5d53 guibg=#6a5d53 gui=NONE
+hi VertSplit ctermfg=0 ctermbg=NONE cterm=NONE guifg=#6a5d53 guibg=#6a5d53 gui=NONE
 hi MatchParen ctermfg=9 ctermbg=NONE cterm=underline guifg=#ef5d32 guibg=NONE gui=underline
-hi StatusLine ctermfg=188 ctermbg=59 cterm=bold guifg=#e6e1c4 guibg=#6a5d53 gui=bold
-hi StatusLineNC ctermfg=188 ctermbg=59 cterm=NONE guifg=#e6e1c4 guibg=#6a5d53 gui=NONE
+hi StatusLine ctermfg=188 ctermbg=0 cterm=bold guifg=#e6e1c4 guibg=#6a5d53 gui=bold
+hi StatusLineNC ctermfg=188 ctermbg=0 cterm=NONE guifg=#e6e1c4 guibg=#6a5d53 gui=NONE
 hi Pmenu ctermfg=3 ctermbg=NONE cterm=NONE guifg=#efac32 guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=125 cterm=NONE guifg=NONE guibg=#a40042 gui=NONE
 hi IncSearch ctermfg=52 ctermbg=11 cterm=NONE guifg=#372725 guibg=#d9d762 gui=NONE
@@ -105,3 +106,7 @@ hi cssClassName ctermfg=3 ctermbg=NONE cterm=NONE guifg=#efac32 guibg=NONE gui=N
 hi cssValueLength ctermfg=4 ctermbg=NONE cterm=NONE guifg=#6c99bb guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=4 ctermbg=NONE cterm=NONE guifg=#6c99bb guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+
+" JavaScript
+hi jsFuncCall ctermfg=2 ctermbg=NONE cterm=NONE guifg=#7daf9c guibg=NONE gui=NONE
+hi link jsThis Conditional
