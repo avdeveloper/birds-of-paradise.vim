@@ -21,7 +21,7 @@ hi VertSplit ctermfg=0 ctermbg=NONE cterm=NONE guifg=#6a5d53 guibg=#6a5d53 gui=N
 hi MatchParen ctermfg=9 ctermbg=NONE cterm=underline guifg=#ef5d32 guibg=NONE gui=underline
 hi StatusLine ctermfg=188 ctermbg=0 cterm=bold guifg=#e6e1c4 guibg=#6a5d53 gui=bold
 hi StatusLineNC ctermfg=188 ctermbg=0 cterm=NONE guifg=#e6e1c4 guibg=#6a5d53 gui=NONE
-hi Pmenu ctermfg=3 ctermbg=NONE cterm=NONE guifg=#efac32 guibg=NONE gui=NONE
+hi Pmenu ctermfg=3 ctermbg=0 cterm=NONE guifg=#efac32 guibg=#483935 gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=125 cterm=NONE guifg=NONE guibg=#a40042 gui=NONE
 hi IncSearch ctermfg=52 ctermbg=11 cterm=NONE guifg=#372725 guibg=#d9d762 gui=NONE
 hi Search    ctermfg=52 ctermbg=11 cterm=NONE guifg=#372725 guibg=#d9d762 gui=NONE
@@ -110,3 +110,7 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 " JavaScript
 hi jsFuncCall ctermfg=2 ctermbg=NONE cterm=NONE guifg=#7daf9c guibg=NONE gui=NONE
 hi link jsThis Conditional
+hi link xmlTag htmlTag
+hi link xmlEndTag htmlTag
+hi link xmlTagName htmlTag
+hi link xmlAttrib Constant
