@@ -109,8 +109,8 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
 " JavaScript
 hi jsFuncCall ctermfg=2 ctermbg=NONE cterm=NONE guifg=#7daf9c guibg=NONE gui=NONE
-hi link jsThis Conditional
-hi link xmlTag htmlTag
-hi link xmlEndTag htmlTag
-hi link xmlTagName htmlTag
+hi link xmlTag jsFuncCall
+hi link xmlEndTag jsFuncCall
+hi link xmlTagName jsFuncCall
 hi link xmlAttrib Constant
+hi link jsThis Conditional
